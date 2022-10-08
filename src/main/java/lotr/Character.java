@@ -26,7 +26,7 @@ abstract public class Character {
     }
 
     public String toString() {
-        return this.getClass().getName() +"{hp=" + this.hp
+        return this.getClass().getSimpleName() +"{hp=" + this.hp
                 + ", power=" + this.power + "}";
     }
 }

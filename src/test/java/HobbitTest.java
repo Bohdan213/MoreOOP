@@ -15,7 +15,7 @@ public class HobbitTest {
 
     @Test
     public void testToString() {
-        assertEquals("lotr.Hobbit{hp=3, power=0}", character.toString());
+        assertEquals("Hobbit{hp=3, power=0}", character.toString());
     }
 
     @Test
